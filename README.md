@@ -1,5 +1,7 @@
-apertura
+DATATRON
 ========
 
-Based on [landa](https://github.com/wilhelmbot/landa) a plain vanilla stack for landing pages.
+Yet another poll engine
+
+* Based on [landa](https://github.com/rodowi/landa) a plain vanilla stack for landing pages.
 
