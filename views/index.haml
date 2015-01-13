@@ -1,10 +1,9 @@
-.container.landing
-  %h1= t('poll.closure.title')
+.container.landing.text-center#objetivos
+  %h1.text-center= t('poll.closure.title')
   %p= t('poll.closure.subtitle')
   %hr
   %p.lead= t('poll.closure.bar.title')
   #chart
-
   %p.lead= t('poll.closure.area.title')
   #area
 
@@ -15,4 +14,3 @@
 %script(src="http://d3js.org/d3.v3.min.js")
 = erb :bar
 = erb :area
-

@@ -13,26 +13,43 @@
   %meta{'name' => 'viewport', 'content' => 'width=device-width,initial-scale=1'}/
 
   / CSS concatenated and minified via ant build script
-  %link{'rel' => 'stylesheet', 'href' => 'css/bootstrap.min.css'}/
-  %link{'rel' => 'stylesheet', 'href' => 'css/bootstrap-theme.min.css'}/
-  %link{'rel' => 'stylesheet', 'href' => 'http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,700', 'type' => 'text/css'}/
-  %link{'rel' => 'stylesheet', 'href' => 'http://fonts.googleapis.com/css?family=Abel', 'type' => 'text/css'}/
-  %link{'rel' => 'stylesheet', 'href' => 'css/layout.css'}/
-  %link{'rel' => 'stylesheet', 'href' => 'css/style.css'}/
+  %link{'rel' => 'stylesheet', 'href' => 'http://fonts.googleapis.com/css?family=Open+Sans:400,700', 'type' => 'text/css'}/
+  %link{'rel' => 'stylesheet', 'href' => 'css/bootstrap.css'}/
+  %link{'rel' => 'stylesheet', 'href' => 'css/styles.css'}/
   / end CSS
 
   %script{'src' => 'js/libs/modernizr-2.0.6.min.js'}
   %script{'src' => 'js/libs/underscore-min.js'}
 
 %body
+  %nav.navbar.navbar-fixed-top.navbar-inverse
+    %div.container
+      %div.navbar-header
+        %button.navbar-toggle.collapsed{'type' => 'button', 'data-toggle'=>'collapse', 'data-target'=>'#navbar', 'aria-expanded'=>'false', 'aria-controls'=>'navbar' }
+          %span.sr-only Toggle navigation
+          %span.icon-bar
+          %span.icon-bar
+          %span.icon-bar
+        %a{'href' => '/'}
+          %img{'src'=>'images/logo.png'}
+      %div.collapse.navbar-collapse{'id'=>'navbar'}
+        %ul.nav.navbar-nav.navbar-right
+          %li
+            %a{'href'=>'#'}= t('navbar.about')
+          %li
+            %a{'href'=>'#'}= t('navbar.contact')
+          %li
+            %a{'href'=>'#'}= t('navbar.poll')
+          %li
+            %a{'href'=>'#'}= t('navbar.login')
+  %div#first
+    %img{'src' =>'images/toplogo.png'}
   %header
-    .logo
-      %a{'href' => '/'}
-        %img{'src' => 'img/logo.png'}
     .container
-      %h1= t('layout.header')
-      %p= t('layout.about_html')
-  = yield
+  %div#objetivos
+    = yield
+
+  = haml :footer
   /! end of #container
 
   %script{'src' => '//code.jquery.com/jquery-1.10.2.min.js'}
