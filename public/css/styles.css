@@ -120,6 +120,55 @@ a.btn.btn-default:hover {
   margin-right: 70px;
 }
 
+/* Buttons */
+.btn-3d {
+  position: relative;
+  display: inline-block;
+  padding: 20px 60px;
+  color: white;
+  margin: 0 0 0 -5px;
+  text-align: center;
+  transition: all .08s linear;
+  width: 100%;
+}
+
+/* moves button 9px down when clicked */
+.btn-3d:active {
+  top: 9px;
+}
+
+.btn-3d {
+  background-color: #333;
+  box-shadow:
+    0 0 0 1px #333 inset,
+    0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+    0 8px 0 1px rgba(0, 0, 0, 0.2),
+    0 8px 0 0 #333;
+}
+
+.btn-3d.green {
+  background-color: #22D4A7;
+  box-shadow:
+    0 0 0 1px #22D4A7 inset,
+    0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+    0 8px 0 1px rgba(0, 0, 0, 0.2),
+    0 8px 0 0 #15986E;
+}
+
+.btn-3d.purple {
+  background-color: #6558FB;
+  box-shadow:
+    0 0 0 1px #6558FB inset,
+    0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+    0 8px 0 1px rgba(0, 0, 0, 0.2),
+    0 8px 0 0 #170F85;
+}
+
+.btn-3d:active {
+  box-shadow: none;
+}
+
+
 /* Poll */
 .container.poll, .container.results { text-align: center }
 .poll-action-wrapper {
@@ -140,6 +189,12 @@ ul#options li {
   width: 100%;
 }
 
+span.versus {
+  background-color: #F2F2F2;
+  padding: 8px;
+  position: relative;
+  top: -0.8em;
+}
 /* Graph */
 
 g.legend text { text-transform: uppercase; }
