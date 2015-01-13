@@ -1,17 +1,17 @@
-%p.lead= t('poll.lead')
+.container.poll
+  %p.lead= t('poll.lead')
 
-%form(action="/respuestas" id="answers" method="post" role="form")
-  = csrf_input_tag
-  %input(type="hidden" name="selected" value="0")
-  %ul#options
-    - locals[:options].each do |option|
-      %li(class="poll-option-wrapper")
-        %a(class="poll-option btn-3d #{session[:color]}" href="#" id="option-#{option.pseudo_uid}")= option.text
-      %div.hr
-        %span.versus
-          v.s.
+  %form(action="/respuestas" id="answers" method="post" role="form")
+    = csrf_input_tag
+    %input(type="hidden" name="selected" value="0")
+    %ul#options
+      - locals[:options].each do |option|
+        %li(class="poll-option-wrapper")
+          %a(class="poll-option btn-3d #{session[:color]}" href="#" id="option-#{option.pseudo_uid}")= option.text
+        %div.hr
+          %span.versus
+            v.s.
 
-- if flash[:finish]
-  %p.poll-action-wrapper
-    %a(href="/resultados" id="poll-finish" class="#{session[:color]}")= t('poll.actions.finish')
-
+  - if flash[:finish]
+    %p.poll-action-wrapper
+      %a(href="/resultados" id="poll-finish" class="#{session[:color]}")= t('poll.actions.finish')
