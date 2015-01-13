@@ -1,127 +1,182 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 /*body {
-	padding-top: 50px;
-	padding-bottom: 20px;
+padding-top: 50px;
+padding-bottom: 20px;
 }*/
 /*.body {*/
 body {
-	font-family: "Open Sans";
-	font-size: 16px;
-	font-weight: 400;
-	color: #545554;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  color: #545554;
 
-	padding-top: 50px;
-	/*padding-bottom: 20px;*/
+  padding-top: 50px;
+  /*padding-bottom: 20px;*/
 }
 
 p {
-	font-family: "Open Sans";
-	font-size: 16px;
-	font-weight: 400;
-	text-align: center;
-	color: #545554;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: #545554;
 }
 
+/* Navbar */
 .navbar-inverse {
-    background-color: #545554;
-    border-color: #545554;
+  background-color: #545554;
+  border-color: #545554;
 }
-
 .navbar-header{
-	margin-top: 12px;
+  margin-top: 12px;
 }
-
 .navbar-inverse .navbar-nav>li>a {
-	color: #fff;
-	font-size: 12px;
+  color: #fff;
+  font-size: 12px;
 }
 
+/* Content */
 #first{
-	text-align: center;
-	color: #474747;
-	background-color: #EEEEEE;
-	padding-top: 75px;
-	padding-bottom: 75px;
+  text-align: center;
+  color: #474747;
+  background-color: #EEEEEE;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 #registro {
-	text-align: center;
-	background-color: #00CC99;
-	padding-top: 75px;
-	padding-bottom: 75px;
+  text-align: center;
+  background-color: #00CC99;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 #objetivos {
-	text-align: center;
-	background-color: #EEEEEE;
-	padding-top: 50px;
-	padding-bottom: 80px;
+  text-align: center;
+  background-color: #EEEEEE;
+  padding-top: 50px;
+  padding-bottom: 80px;
 }
 
 #herramientas {
-	text-align: center;
-	background-color: #D4D4D4;
-	padding-top: 50px;
-	padding-bottom: 80px;
+  text-align: center;
+  background-color: #D4D4D4;
+  padding-top: 50px;
+  padding-bottom: 80px;
 }
 
 #miembros {
-	background-color: #00CC99;
-	width: 100%;
-	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 50px;
+  background-color: #00CC99;
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 h2.titulo {
-	font-weight: 700;
-	margin-bottom: 60px;
+  font-weight: 700;
+  margin-bottom: 60px;
 }
 
 h2 {
-	font-weight: 700;
+  font-weight: 700;
 }
 
 h2.titlebold {
-	color: #fff;
+  color: #fff;
 }
-
 a.btn-default {
- font-family: "Open Sans";
- background-color: #545554;
- color: #fff;
- border-color: #545554;
- font-weight:700;
- font-size: 14px;
+  font-family: "Open Sans";
+  background-color: #545554;
+  color: #fff;
+  border-color: #545554;
+  font-weight:700;
+  font-size: 14px;
 
 }
-
 a.btn.btn-default:hover {
-	background-color: #444444;
-	border-color: #444444;
-	color: #fff;
+  background-color: #444444;
+  border-color: #444444;
+  color: #fff;
 }
-
 .col-md-4 {
-	text-align: center;
+  text-align: center;
 }
 
-
+/* Footer */
 .footer {
-	background-color: #545554;
-	height: 200px;
-	text-align: center;
-	padding-top: 50px;
+  background-color: #545554;
+  height: 200px;
+  text-align: center;
+  padding-top: 50px;
 }
-
 .add-top-separation {
-	margin-top: 20px;
+  margin-top: 20px;
 }
-
 .linkfooter {
-	color: #00CC99;;
+  color: #00CC99;;
+}
+.footer-image {
+  margin-right: 70px;
 }
 
-.footer-image {
-	margin-right: 70px;
+/* Poll */
+.container.poll, .container.results { text-align: center }
+.poll-action-wrapper {
+  padding-top: 20px;
+}
+
+.poll-action-wrapper a {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+ul#options { padding-left: 0; }
+ul#options li {
+  display: inline-block;
+  list-style: none;
+  width: 100%;
+}
+
+/* Graph */
+
+g.legend text { text-transform: uppercase; }
+div.tooltip {
+  position: absolute;
+  pointer-events: none;
+}
+.axis text {
+  font: 10px sans-serif;
+}
+.axis path, .axis line {
+  fill: none;
+  stroke: #333;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+}
+
+/* Bar chart */
+rect.bar {
+  fill: #333; /* fallback */
+}
+#chart.green rect.bar {
+  fill: #22D4A7;
+}
+#chart.purple rect.bar {
+  fill: #6558FB;
+}
+svg text { font-size: 12px }
+svg .axis-label, svg .bar-title { font-size: 10px; }
+
+/* Donut */
+.arc text { fill: white }
+
+/* Area chart */
+path.area {
+  fill: #2DFEFE;
+}
+path.domain {
+  stroke-width: 0;
 }
