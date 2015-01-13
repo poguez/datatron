@@ -1,5 +1,114 @@
 id|parent|text
-1||Datos geográficos
-2||Rendición de cuentas
-100|1|Ríos
-101|1|Estaciones hidrométricas
+1||Democracia y rendición de cuentas
+2||Economía y finanzas
+3||Educación
+4||Transporte e infraestructura
+5||Crimen y justicia
+6||Movilidad social y bienestar
+7||Energía y medio ambiente
+8||Salud
+9||Geografía.
+101|1|La información disponible a detalle sobre el congreso local y cabildos
+102|1|La información sobre el gobierno local que puedo consultar
+103|1|Datos sobre alianzas entre el gobierno y las empresas
+104|1|Datos sobre los sindicatos en México
+105|1|Datos sobre los organismos autónomos 
+201|2|En qué gasta tu dinero el gobierno
+202|2|Cuántas y cuáles son las empresas que pagan impuestos
+203|2|Cuántos recursos obtiene el gobierno por cobro de impuestos
+204|2|A quién le compra el Gobierno todo lo que adquiere
+205|2|Los salarios, según la experiencia y estudios de las persona
+206|2|Quiénes pagan sus impuestos
+207|2|Con cuánto dinero cuenta el Gobierno para todos sus programas
+208|2|Con cuánto dinero cuenta mi municipio para todos sus programas
+209|2|Cuántas y cuáles son las empresas que pagan IVA en México
+210|2|Las opciones de crédito a las que podría acceder
+211|2|Cuáles son los precios de los bienes y servicios básicos
+212|2|Las estadísticas de comercio e inversión 
+213|2|Datos sobre las micro, pequeñas y medianas empresas en mi región
+214|2|Cuántas y cuáles son las empresas que están registradas en México
+215|2|Datos sobre los emprendedores en México
+216|2|Cuál es el tamaño del mercado informal
+217|2|Lo que tengo que pagar para importar o exportar un producto o servicio
+218|2|Cuántas organizaciones benéficas existen, cuáles son y a qué se dedican
+219|2|Cuáles son los centros de empleo en mi comunidad
+301|3|Los resultados de las evaluaciones de los maestros en la escuela a la que van mis hijos
+302|3|El desempeño anual de alumnos, maestros y escuelas en México
+303|3|Las escuelas con mejor y peor desempeño en mi comunidad o en el país
+304|3|Los resultados de las evaluaciones a la educación en México, comparados con otros países
+305|3|Cuáles son las becas otorgadas por cada institución del Gobierno y quién las recibe
+306|3|Los resultados arrojó la nueva encuesta de escuelas, maestros y alumnos
+307|3|Cuáles son, qué hacen y dónde se ubican los institutos de investigación en México
+308|3|Cuánto le cuesta al Gobierno la educación de los estudiantes
+309|3|Cuáles son y dónde están las escuelas que existen en México
+310|3|En dónde están y cuáles son las instalaciones con las que cuentan las escuelas de mi comunidad
+311|3|Las librerías públicas en mi comunidad
+312|3|Cuáles son y dónde están los museos de mi comunidad
+313|3|Las guarderías en mi comunidad
+401|4|Las obras públicas que se han realizado en mi comunidad o estado
+402|4|Los permisos para obra que se han otorgado en mi comunidad
+403|4|El flujo en tiempo real de las carreteras y caminos del país
+404|4|Las rutas de las carreteras y caminos en el país
+405|4|Las personas con acceso a internet y la calidad de su conexión
+406|4|Zonas que tienen cobertura celular y la calidad de esa cobertura
+407|4|Cuánto es lo que recaudan los parquímetros en mi comunidad y en qué se invierte
+408|4|La cantidad y ubicación de accidentes en las principales carreteras
+409|4|La ubicación de las estaciones de transporte público en mi comunidad
+410|4|Poder consultar si un taxi es legal
+411|4|Las ciclovías y calles en las que las bicicletas tienen prioridad al circular
+412|4|Los estacionamientos públicos autorizados en mi comunidad
+413|4|Los aeropuertos más cercanos y cuáles son sus rutas
+501|5|Qué crímenes son los más comunes y en dónde ocurren
+502|5|Los resultados de las evaluaciones realizadas a la Policía Federal
+503|5|Los resultados de las evaluaciones realizadas a los policías de mi comunidad
+504|5|La información a gran nivel de detalle sobre la Policía Federal
+505|5|La información sobre la policía de mi comunidad
+506|5|La actividad diaria en la Asamblea de mis legisladores locales
+507|5|Dónde se ubican las cortes en mi comunidad y qué asuntos tratan
+508|5|Dónde crecieron los policias de mi comunidad y su nivel de escolaridad
+509|5|El catastro
+510|5|La ubicación y capacidad de las prisiones que existen en México
+511|5|Dónde se ubican las estaciones policiales en mi comunidad
+601|6|Datos estadísticos sobre las necesidades económicas y sociales de la población
+602|6|Los apoyos del Gobierno por medio de programas sociales a nivel localidad
+603|6|Los resultados de los programas sociales
+604|6|Los registros de población a un nivel máximo de detalle
+605|6|La máxima información disponible sobre los censos de población que hace el Gobierno
+606|6|El número de personas que abandonan y llegan a nuestro país a un máximo nivel de detalle
+607|6|De qué estados provienen los migrantes
+701|7|El precio de la luz en México por municipio
+702|7|La ubicación de los centros de recolección de basura y reciclaje
+703|7|Los niveles de contaminación en mi comunidad
+704|7|Los precios para el gas y si varian por región
+705|7|Las viviendas que no tienen electricidad en México y dónde se encuentran
+706|7|La distribución de la red de electricidad en mi comunidad
+707|7|Cuáles son y dónde se ubican los espacios públicos de mi comunidad
+708|7|Las zonas en mi comunidad que están en riesgo de inundación
+709|7|La localización de las estaciones y subestaciones de distribución de energía
+710|7|El pronóstico del clima para mi comunidad en tiempo real
+711|7|La ubicación de todas las gasolineras del país
+712|7|Los lugares donde se observa el estado del tiempo en una comunidad
+801|8|Las clínicas y hospitales mejor evaluados de mi comunidad
+802|8|Los costos promedio de los tratamientos de diversas enfermedades en México
+803|8|Los precios máximos y mínimos de los medicamentos en México
+804|8|La ubicación de los hospitales y qué especialidades tratan
+805|8|Los beneficiarios del sistema de salud
+806|8|Dónde están las clínicas y qué especialidades tratan
+807|8|Las enfermedades más comunes en México por localidad
+808|8|Los riesgos para la salud que afectan a mi comunidad
+809|8|Los casos que van surgiendo de una enfermedad en un tiempo y región determinado
+810|8|Datos a detalle de las epidemias en México por municipio
+811|8|Cuántas personas mueren cada día en México y dónde
+812|8|Los servicios de ambulancia que hay disponibles en mi comunidad
+813|8|En dónde están las clínicas dentales autorizadas y qué especialidades tratan
+814|8|Los comercios que tienen autorización de vender alcohol en mi comunidad.
+901|9|La información que contiene el registro público de la propiedad.
+902|9|Cuáles son y dónde se ubican las áreas protegidas en México
+903|9|La información puedo consultar sobre el campo en México.
+904|9|Las fronteras geográficas y políticas en México.
+905|9|Los datos sobre reconstrucción ante las afectaciones causadas por Desastres Naturales.
+906|9|Toda la información sobre los bosques en México.
+907|9|Datos a detalle sobre desastres naturales.
+908|9|Datos sobre los ríos y lagos en México.
+909|9|La información sobre las granjas agrícolas que existen en México.
+910|9|Los códigos postales.
