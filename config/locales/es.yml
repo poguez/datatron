@@ -1,9 +1,19 @@
 es:
+  navbar:
+    about: Acerca de
+    contact: Contacto
+    poll: Encuesta
+    login: Login
+  register:
+    title: Sé parte de Red México Abierto
+    participate: Participa en la jornada
+    innovation: Innovación para un México Abierto.
+    register_now: Regístrate
   confirmation:
     thanks: Gracias por tu registro
     coda: Te mantendremos al tanto
   form:
-    call_to_action_html: 'Regístrate y mantente al tanto de <b>datos.gob.mx</b>'
+    call_to_action_html: 'Regístrate y mantente al tanto de <b>Red México Abierto</b>'
     disclaimer: Al registrarte confirmas estar de acuerdo con nuestra leyenda de privacidad ubicada en %{link}
     email: Correo electrónico
     request:
@@ -21,10 +31,9 @@ es:
       suggest: ¿Se nos pasa algo? Sugiere un tema
     signup: Registrar
   layout:
-    title: DATOS.GOB.MX
-    header: DATOS.GOB.MX
+    title: mxabierto.org
+    header: mxabierto.org
     tagline: Transforma el gobierno
-    about_html: <p>Ésta será la plataforma del Gobierno de la República que concentrará datos abiertos del país y que reflejará información de importancia para los mexicanos.</p><p>Queremos saber cuáles son los temas que más te interesan.</p>
   mongo_mapper:
     attributes:
       user:
@@ -43,8 +52,8 @@ es:
         title: Preferencias por tema
       data: Descarga la base de datos
       method: Metodología de la encuesta
-      title: Resultados de la encuesta <a href="/datatron">Datatron</a>
-      subtitle: Realizada del 23 de octubre a 16 de noviembre de 2013
+      title: Resultados de la encuesta <a href="/encuesta">MX-Abierto</a>
+      subtitle: Realizada del 1 de enero a 30 de marzo de 2015
     lead: ¿Qué dato del gobierno te gustaría conocer?
     results:
       header: Resultados de todos los participantes de la encuesta
@@ -59,5 +68,3 @@ es:
       <p>Los datos personales no serán objeto de un tratamiento diverso al aquí señalado, salvo aquel previsto y autorizado por la Ley respectiva.</p>
       <p>La Unidad Administrativa responsable del Sistema de Datos Personales “Portal de Datos Abiertos”, es la Coordinación de Estrategia Digital Nacional a través de la Dirección de Participación Ciudadana.</p>
       <p>El titular de los datos personales podrá ejercer los derechos de acceso y corrección (rectificación) de sus datos personales, así como aquellos establecidos por la Constitución Política de los Estados Unidos Mexicanos, en su artículo 16, párrafo segundo, en los términos previstos por la Ley Federal de Transparencia y Acceso a la Información Pública Gubernamental, su Reglamento, así como los Lineamientos respectivos, ante la Unidad de Enlace para la Transparencia y el Acceso a la Información, cuya dirección es Av. Nuevo León 210, P.B., Col. Hipódromo, Delegación Cuauhtémoc, México, Distrito Federal, C.P. 06100.</p>
-
-
