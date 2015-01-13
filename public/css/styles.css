@@ -195,6 +195,16 @@ span.versus {
   position: relative;
   top: -0.8em;
 }
+
+div.hr {
+  background-color: #333;
+  height: 1px;
+  text-align: center;
+  margin: 28px 0 20px 0;
+  position: relative;
+  left: -5px;
+}
+
 /* Graph */
 
 g.legend text { text-transform: uppercase; }
