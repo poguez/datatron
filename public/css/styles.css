@@ -1,0 +1,127 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+/*body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}*/
+/*.body {*/
+body {
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	color: #545554;
+
+	padding-top: 50px;
+	/*padding-bottom: 20px;*/
+}
+
+p {
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	color: #545554;
+}
+
+.navbar-inverse {
+    background-color: #545554;
+    border-color: #545554;
+}
+
+.navbar-header{
+	margin-top: 12px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+	font-size: 12px;
+}
+
+#first{
+	text-align: center;
+	color: #474747;
+	background-color: #EEEEEE;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+#registro {
+	text-align: center;
+	background-color: #00CC99;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+#objetivos {
+	text-align: center;
+	background-color: #EEEEEE;
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+
+#herramientas {
+	text-align: center;
+	background-color: #D4D4D4;
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+
+#miembros {
+	background-color: #00CC99;
+	width: 100%;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+h2.titulo {
+	font-weight: 700;
+	margin-bottom: 60px;
+}
+
+h2 {
+	font-weight: 700;
+}
+
+h2.titlebold {
+	color: #fff;
+}
+
+a.btn-default {
+ font-family: "Open Sans";
+ background-color: #545554;
+ color: #fff;
+ border-color: #545554;
+ font-weight:700;
+ font-size: 14px;
+
+}
+
+a.btn.btn-default:hover {
+	background-color: #444444;
+	border-color: #444444;
+	color: #fff;
+}
+
+.col-md-4 {
+	text-align: center;
+}
+
+
+.footer {
+	background-color: #545554;
+	height: 200px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.add-top-separation {
+	margin-top: 20px;
+}
+
+.linkfooter {
+	color: #00CC99;;
+}
+
+.footer-image {
+	margin-right: 70px;
+}
