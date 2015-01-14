@@ -190,8 +190,8 @@ ul#options li {
 }
 
 span.versus {
-  background-color: #F2F2F2;
-  padding: 8px;
+  background-color: #EEE;
+  padding: 5px;
   position: relative;
   top: -0.8em;
 }
@@ -204,6 +204,8 @@ div.hr {
   position: relative;
   left: -5px;
 }
+div.hr:last-child { display: none }
+
 
 /* Graph */
 
