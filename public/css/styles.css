@@ -254,3 +254,9 @@ path.area {
 path.domain {
   stroke-width: 0;
 }
+
+
+/* Titles */
+.title{
+  margin-bottom: 0.78em;
+}

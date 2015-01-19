@@ -44,6 +44,7 @@ es:
       messages:
         taken: "fue registrado anteriormente"
   poll:
+    title: Encuesta
     actions:
       finish: Terminar la encuesta
       reboot: Seguir con la encuesta
