@@ -137,6 +137,13 @@ a.btn.btn-default:hover {
   top: 9px;
 }
 
+.btn-3d:hover {
+color: white;
+font-style: normal;
+font-weight: 600;
+text-decoration: none;
+}
+
 .btn-3d {
   background-color: #333;
   box-shadow:
