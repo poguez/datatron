@@ -210,6 +210,8 @@ div.hr {
   margin: 28px 0 20px 0;
   position: relative;
   left: -5px;
+  width: 60%;
+  left: 20%;
 }
 div.hr:last-child { display: none }
 
